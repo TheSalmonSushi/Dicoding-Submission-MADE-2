@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Dicoding Event</string>
+    <string name="title_home">Home</string>
+    <string name="title_upcoming">Upcoming</string>
+    <string name="title_finished">Finished</string>
+    <string name="foto_event_detail">Foto Detail Event</string>
+    <string name="upcoming_event">Upcoming Event</string>
+    <string name="cari_event">Cari Event</string>
+    <string name="cth_desc_event">Dicoding Developer Coaching kali ini akan membahas materi dan pertanyaan seputar React dengan tema "Cara Jitu React Membangun UI". Bagi yang terbiasa dengan cara native, kamu akan terkesima dengan cara React dalam membangun UI. React memiliki cara spesial dalam membuat kerajinan di browser. Kita akan memahami cara membuat proyek React baru, melukis menggunakan JSX, dan membangun UI menggunakan pendekatan composition. Untuk kamu yang ingin mendapatkan sertifikat kehadiran, silakan untuk mendaftar terlebih dahulu dengan klik “Daftar Gratis”.t</string>
+    <string name="upcoming_dicoding_event_text_body">Upcoming Dicoding event near you</string>
+    <string name="finished_event">Finished Event</string>
+    <string name="text_finished_event_body">See you on our next event :)</string>
+    <string name="register">Register</string>
+    <string name="settings">Settings</string>
+    <string name="title_favorite">Favorite Event</string>
+    <string name="favorite_event">Favorite Event</string>
+    <string name="text_favorite_event_body">My Favorite Event 😱😱😱😘</string>
+    <string name="favorite_bookmark">Favorite Bookmark</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="app_logo">App Logo</string>
+    <string name="title_setting">Setting</string>
+    <string name="daily_reminder">Daily Reminder</string>
+    <string name="Setting">Setting</string>
+    <string name="notification_description">Enable notification for upcoming events</string>
+    <string name="darkmode_description">Enable dark mode</string>
+    <string name="no_data">Empty data</string>
+    <string name="something_wrong">Oops.. something went wrong</string>
+
+    <string name="image_description">Image</string>
+    <string name="text_primary">Sample of title text</string>
+    <string name="text_subtitle">Sample of subtitle text</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+</resources>

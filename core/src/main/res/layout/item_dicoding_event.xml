@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="175dp"
+    android:layout_height="240dp"
+    android:layout_gravity="center"
+    android:layout_margin="4dp"
+    app:cardBackgroundColor="@color/md_theme_surface"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="4dp"
+    app:strokeWidth="2dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="175dp"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/iv_dicoding_event"
+            android:layout_width="175dp"
+            android:layout_height="175dp"
+            android:contentDescription="@string/gambar_event"
+            android:scaleType="centerCrop"
+            android:src="@drawable/contoh_event2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_dicoding_event_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="4dp"
+            android:gravity="start"
+            android:maxLines="3"
+            android:text="@string/contoh_event"
+            android:textColor="@color/md_theme_onSurface"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@id/iv_dicoding_event"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@id/iv_dicoding_event"
+            app:layout_constraintTop_toBottomOf="@id/iv_dicoding_event"
+            app:layout_constraintVertical_bias="0.0" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>
