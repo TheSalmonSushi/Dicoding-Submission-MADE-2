@@ -11,6 +11,9 @@ material = "1.9.0"
 activity = "1.7.2"
 constraintlayout = "2.1.4"
 
+androidDatabaseSqlcipher = "4.5.4"
+sqliteKtx = "2.4.0"
+
 lifecycleLivedataKtx = "2.6.2"
 lifecycleViewmodelKtx = "2.6.2"
 navigationFragmentKtx = "2.5.3"
@@ -67,6 +70,9 @@ retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit
 converter-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "retrofit" }
 
 koin-android = { module = "io.insert-koin:koin-android", version.ref = "koin" }
+
+android-database-sqlcipher = { module = "net.zetetic:android-database-sqlcipher", version.ref = "androidDatabaseSqlcipher" }
+androidx-sqlite-ktx = { module = "androidx.sqlite:sqlite-ktx", version.ref = "sqliteKtx" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

@@ -3,9 +3,7 @@ package com.salmonboy.submissionakhir.ui.detail
 import android.content.Intent
 import android.icu.text.SimpleDateFormat
 import android.net.Uri
-import android.os.Build
 import android.os.Bundle
-import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AppCompatDelegate
 import androidx.core.content.ContextCompat
@@ -62,10 +60,6 @@ class EventDetailActivity : AppCompatActivity() {
         AppCompatDelegate.setDefaultNightMode(mode)
     }
 
-
-
-
-    @RequiresApi(Build.VERSION_CODES.N)
     private fun bindItem(eventDetail: Event) {
         // Title and Organizer
         binding.tvEventTitle.text = eventDetail.name
@@ -101,7 +95,6 @@ class EventDetailActivity : AppCompatActivity() {
         }
     }
 
-    @RequiresApi(Build.VERSION_CODES.M)
     private fun hideBookmark() {
         var isCardVisible = true
         binding.main.setOnScrollChangeListener { _, _, scrollY, _, oldScrollY ->
@@ -137,7 +130,6 @@ class EventDetailActivity : AppCompatActivity() {
         }
     }
 
-    @RequiresApi(Build.VERSION_CODES.N)
     private fun formatDate(apiDate: String): String {
         val apiDateFormat = SimpleDateFormat("yyyy-MM-dd HH:mm:ss", Locale.getDefault())
         val desiredDateFormat = SimpleDateFormat("dd MMMM yyyy\n HH:mm", Locale.getDefault())
