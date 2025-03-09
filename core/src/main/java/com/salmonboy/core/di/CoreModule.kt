@@ -34,7 +34,7 @@ val databaseModule = module {
     }
 }
 
-val networkModule = module { 
+val networkModule = module {
     val baseUrl = BuildConfig.BASE_URL
     val loggingInterceptor = if (BuildConfig.DEBUG) {
         HttpLoggingInterceptor().setLevel(HttpLoggingInterceptor.Level.BODY)
@@ -49,7 +49,7 @@ val networkModule = module {
             .add(hostname, "sha256/C5+lpZ7tcVwmwQIMcRtPbsQtWLABXhQzejna0wHFr8M=")
             .build()
         OkHttpClient.Builder()
-            .addInterceptor(HttpLoggingInterceptor().setLevel(HttpLoggingInterceptor.Level.BODY))
+            .addInterceptor(loggingInterceptor)
             .connectTimeout(120, TimeUnit.SECONDS)
             .readTimeout(120, TimeUnit.SECONDS)
             .certificatePinner(certificatePinner)
