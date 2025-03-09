@@ -11,7 +11,7 @@ import kotlinx.coroutines.flow.flowOn
 
 class RemoteDataSource(private val apiService: ApiService) {
 
-    suspend fun getAllEvents(): Flow<Result<List<EventResponse>>> {
+     fun getAllEvents(): Flow<Result<List<EventResponse>>> {
         return flow {
             try {
                 val response = apiService.getDicodingEvents(-1, null, 100)
